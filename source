@@ -1,0 +1,7 @@
+getgenv().farmer = true;
+ 
+while wait(2.0) do
+    if getgenv().farmer == true then
+        game:service'ReplicatedStorage'.UseSpell:FireServer("Devestating Slash")
+    end
+end
